@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;600&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #64ffda; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #64ffda; 
+  }
+
+*{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+body{
+    background-color: #0a192f !important;
+}
+
+.callus{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.intro{
+    width: auto;
+    text-align: left;
+    align-items: center;
+    height: 100vh;
+}
+
+.myButton{
+    border-color: #64ffda;
+    color: #64ffda;
+    background-color: #0a192f;
+}
+
+.myButton:hover{
+    background-color: rgb(47, 210, 172,0.6);
+}
+
+.intro>*{
+    margin-bottom: 150px;
+
+}
+
+
+#intro4>p{
+    margin-top: 30px;
+    font-size: 12px;
+    width: 45%;
+}
+
+#subtitle{
+    color: rgba(255,255,255,0.7);
+}
+
+.experience{
+    text-align: left;
+    height: 100%;
+}
+
+.Contact{
+    margin-top: 50px;
+}
+
+
+#intro1{
+    color: #64ffda;
+}
+
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0a192f;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
